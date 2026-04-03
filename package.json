@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-website",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "dev": "npm --prefix client run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix client run preview"
+  }
+}
