@@ -339,7 +339,7 @@ function App() {
             </div>
 
             <aside className="contact-info-panel">
-              <h3>Contact Information</h3>
+              <h3>Contact</h3>
 
               <div className="contact-info-block">
                 <h4>Email</h4>
